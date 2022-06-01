@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML DOM</title>
+    </head>
+    <body onclick="this.innerHTML = '<p>DONE</p>'">
+        <div id="idx"
+            style="position: absolute; left: 50px">
+            <p style="color: red">CLICK ME!</p>
+        </div>
+    </body>
+    <script>
+        document.title = 'DOM Programming Interface';
+        document.getElementsByTagName("p")[0].innerHTML =
+        document.body.nodeName;
+        let x = document.getElementById("idx");
+        x.innerHTML = '<h1>New text</h1>' + x.innerHTML;
+    </script>
+    <script>
+        let w = document.getElementById("idx");
+        w.style.left = '200px';
+        w.style.backgroundColor = 'lightgreen';
+        let y = document.getElementsByTagName("p")[0];
+        y.style.color = 'purple';
+        let z = document.getElementsByTagName("h1")[0];
+        z.style.fontFamily = 'courier';
+    </script>
+</html>

@@ -1,0 +1,76 @@
+header {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-family: "Arial", sans-serif;
+    font-size: 22pt;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2em;
+    font-family: "Times", serif;
+    font-size: 16pt;
+    text-align: center;
+}
+
+canvas {
+    border: black 5px solid;
+    background-color: #e6e6e6;
+    margin-left: 3em;
+}
+
+#chrono {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16pt;
+    margin-right: 3em;
+    text-align: right;
+    color: blueviolet;
+}
+
+/* Exercise 3: style for the lives */
+#livesleft {
+    margin-left: 3em;
+    margin-top: 1em;
+    padding: 0.2em;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Exercise 4: style for end screen */
+#endScreen {
+    width: 800px;
+    height: 500px;
+    background: url(../imgs/gameOver.jpg);
+    text-align: center;
+    vertical-align: text-top;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bolder;
+    font-size: 32pt;
+    font-variant: small-caps;
+    /* Exercise 5: initial display of the end screen must be none as we do not execute
+    startGame on window.onload */
+    display: none;
+}
+
+/* Exercise 5: style for radioGroup, the container of each radio button */
+.radioGroup {
+    display: block;
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18pt;
+}
+
+/* Exercise 5: style for the initial screen main div */
+#initial {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+/* Exercise 5: resize the radio buttons */
+input[type="radio"] {
+    transform: scale(1.6);
+}

@@ -1,0 +1,52 @@
+{
+    "words":
+    [
+                ["orange",
+                "apple",
+                "banana",
+                "kiwi",
+                "watermelon",
+                "cherries"],
+
+                ["garlic",
+                "artichoke",
+                "eggplant",
+                "broccoli",
+                "zucchini",
+                "onion",
+                "red onion",
+                "green onion",
+                "mushroom",
+                "cauliflower",
+                "asparagus",
+                "spinach",
+                "lettuce",
+                "corn",
+                "avocado",
+                "potato",
+                "sweet potato",
+                "cucumber"],
+
+                ["milk",
+                "apple juice",
+                "soy milk",
+                "orange juice",
+                "peach juice",
+                "almond milk"],
+
+                ["water",
+                "soda",
+                "beer",
+                "oil",
+                "ketchup",
+                "mustard",
+                "liquor",
+                "hot sauce",	
+                "vinegar",
+                "whisky",
+                "vodka",
+                "gin",
+                "tomato sauce"]
+        
+    ]
+}

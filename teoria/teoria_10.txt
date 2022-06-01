@@ -1,0 +1,5 @@
+Compiler closures only remove whitespace from code and rename variables, but are quite readable after mimicking. The two options to obfuscate the code are very similar, the one from Dan's tools is not very readable, but it keeps all the names of functions and variables at the end of the file, so when you use js-beautify you can recover most of the the structure of the program with the names of variables that we put. And in the obfucator.io option, if we change Options Preset to high, the variable names are not left, they are less readable and cannot be recovered when we use js-beautify.
+
+http://teseo.act.uji.es/~al405281/Infinity%20Square%20ofuscado/
+
+I've used the obfuscator.io tool and changed Options Preset to high to make the code even more difficult to read. Then I uploaded the code to teseo using WinSCP.

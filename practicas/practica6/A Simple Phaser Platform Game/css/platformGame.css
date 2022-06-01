@@ -1,0 +1,10 @@
+canvas {
+    border: #5f95e8 6px solid;
+    margin: auto;
+    margin-top: 2em;
+}
+
+@font-face {
+    font-family: 'Inspiration';
+    src: url('../assets/fonts/Inspiration-Regular.ttf');
+}

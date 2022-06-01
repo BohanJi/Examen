@@ -1,0 +1,11 @@
+Infinity Square
+	The funtion crashWith in class SquaredForm is used to detect the collision between the squared and the obstacle. It use the coordenates to calculate all four sides and verify if them crash.
+
+	The funtion updateGame check the collision of the square with the obstacles in the first for. If it is not fulfilled, verify that passed enough frame to create new obstacle. To create it, the funtion test the probability to create new obstacle, and creates the top obstacle, space for the square and if there is enough space the bottom obstacle is created. After it delete all objets that have left the screen, and move el square into the game area.
+
+	The funtion handlerOne detected when press arrow bottoms and set the square speed to move its. And the handlerTwo make the opposite operation, when we stop to press keys reset the speeds to zero.
+
+Table Football
+	The funtion moveBall verify if the ball is collided to top or bottom, and check if some player has marked. After check that the ball hits paddle and reverse the direction X. Finally update the ball position.
+ 
+	The funtion gameloop determinate when the game is stopped and when the game necesites continuous rendering.

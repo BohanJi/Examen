@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+a:link
+{
+    color: lawngreen;
+}
+a:visited
+{
+    color:red;
+}
+a:hover
+{
+    color:salmon;
+}
+a:active
+{
+    color:blue;
+}
+.body
+{
+    background: dimgray;
+}
+.h1
+{
+    font-family:'Neonderthaw', cursive;
+}
+.myDiv
+{
+    border: 10px outset blueviolet;
+    background-color: lightcyan;
+    text-shadow: rgb(78, 78, 78);
+    box-shadow:5px 5px 5px 2px greenyellow;
+}
+#inicio
+{
+    color: lawngreen;
+    font-family: "Gill Sans,cursive";
+    font-size: 30px;
+}
+#background
+{
+    background-image:url(https://allbestfonts.com/wp-content/uploads/2017/12/2f54bb9c-c9a4-40e8-a939-c5a596abb472.jpg);
+}
